@@ -2,10 +2,6 @@ steps:
   - name: ubuntu
     args:
       - echo
-      - "hello world-3"
-  - name: ubuntu
-    args:
-      - echo
       - $BRANCH_NAME
   - name: node
     args:
