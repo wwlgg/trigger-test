@@ -2,7 +2,7 @@ steps:
   - name: ubuntu
     args:
       - echo
-      - "hello world-2"
+      - "hello world-3"
   - name: ubuntu
     args:
       - echo
