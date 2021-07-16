@@ -3,6 +3,10 @@ steps:
     args:
       - echo
       - $BRANCH_NAME
+  - name: ubuntu
+    args:
+      - echo
+      - $BRANCH_NAME
   - name: node
     args:
       - install
