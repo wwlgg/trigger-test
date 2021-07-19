@@ -7,15 +7,15 @@ steps:
     - '_HEAD_BRANCH=$_HEAD_BRANCH'
 
  - name: ubuntu
-    args:
-      - echo
-      - $BRANCH_NAME
+   args:
+    - echo
+    - $BRANCH_NAME
  - name: ubuntu
-    args:
-      - echo
-      - $BRANCH_NAME
+   args:
+    - echo
+    - $BRANCH_NAME
  - name: node
-    args:
-      - install
+   args:
+    - install
     entrypoint: npm
 
