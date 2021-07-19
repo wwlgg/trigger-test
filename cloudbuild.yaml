@@ -2,7 +2,7 @@ steps:
  - name: 'ubuntu'
    args: ['bash', './myscript.sh']
    env:
-     - '_PR_NUMBER=$BUILD_I$_PR_NUMBER'
+     - '_PR_NUMBR=$_PR_NUMBER'
      - '_BASE_BRANCH=$_BASE_BRANCH'
      - '_HEAD_BRANCH=$_HEAD_BRANCH'
 
